@@ -1,0 +1,67 @@
+.SearchBar {
+  padding: 1rem;
+  background-color: #2b2d2f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+  width: 30%;
+  background-image: url(../image/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1rem;
+}
+.searchWord {
+  height: 30px;
+  width: 40%;
+  padding-left: 1rem;
+  background: #62656b;
+  color: #fefefe;
+  background-image: url(../image/search.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  box-shadow: 5px 5px 10px black;
+}
+.searchWord::placeholder {
+  color: #fefefe;
+}
+
+@media screen and (max-width: 900px) {
+  .logo {
+    width: 40%;
+  }
+  .searchWord {
+    height: 30px;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .logo {
+    width: 45%;
+  }
+  .searchWord {
+    height: 30px;
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .SearchBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  .searchWord {
+    height: 30px;
+    width: 90%;
+  }
+}

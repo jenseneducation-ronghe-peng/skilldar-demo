@@ -1,0 +1,49 @@
+.Home {
+  margin: auto;
+}
+.body {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+.related {
+  width: 15%;
+}
+.main-sec {
+  width: 65%;
+}
+.definitionDiv {
+  border: 1px solid darkgray;
+  margin: 1rem;
+}
+.definitionTitle {
+  color: darkgray;
+  margin: 0;
+}
+.definitionText {
+  color: red;
+  font-size: 13px;
+  text-align: left;
+  padding: 0 0.5rem 0 0.5rem;
+}
+.sort {
+  width: 20%;
+}
+@media screen and (max-width: 800px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .related {
+    width: 90%;
+  }
+  .main-sec {
+    width: 100%;
+  }
+  .sort {
+    width: 90%;
+  }
+}

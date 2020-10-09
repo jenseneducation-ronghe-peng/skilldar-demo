@@ -1,0 +1,137 @@
+.SkillerCard {
+  margin: auto;
+  align-items: center;
+  background: #464646;
+  margin: 1rem;
+  justify-content: center;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 5px;
+}
+.upperSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 1rem;
+}
+.skillPic {
+  width: 150px;
+  height: 130px;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+.skillInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 1rem;
+}
+.baseInfo {
+  width: 60%;
+}
+.score {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.chart {
+  width: 80%;
+  margin-right: 0.5rem;
+}
+.redscore {
+  font-weight: 700;
+  color: #ffffff;
+}
+.keyInfo {
+  background: #2b2d2f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.skillText {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-right: 1rem;
+  width: 70%;
+  text-align: left;
+}
+.hashtag {
+  color: red;
+  margin-right: 0.2rem;
+}
+.locationInfo {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+.locationPic {
+  width: 20px;
+  height: 20px;
+  background-image: url(../image/location.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 550px) {
+  .upperSection {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  .skillPic {
+    width: 200px;
+    height: 160px;
+    border-radius: 10px;
+  }
+  .skillText {
+    justify-content: space-around;
+    margin-right: 0;
+    width: 60%;
+  }
+  .locationInfo {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .skillInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .baseInfo {
+    width: 100%;
+    text-align: center;
+  }
+  .score {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .keyInfo {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .skillText {
+    justify-content: space-around;
+    margin-right: 0;
+    width: 100%;
+  }
+  .locationInfo {
+    width: 80%;
+  }
+}

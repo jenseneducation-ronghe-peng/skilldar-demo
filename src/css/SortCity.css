@@ -1,0 +1,64 @@
+.SortCity {
+  background: #464646;
+  color: white;
+  border-radius: 1rem;
+  text-align: left;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.sortFilter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid orange;
+  padding: 0 0.3rem 0 0.3rem;
+  border-radius: 10px;
+}
+.showSortbtn {
+  background-image: url(../image/sort_result.png);
+  transform: scaleY(-1);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+.hideSortbtn {
+  background-image: url(../image/sort_result.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+.citySelection {
+  align-items: center;
+  padding: 0.5rem;
+  text-align: left;
+}
+.city {
+  margin-right: 1rem;
+}
+.city:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #62656b;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+}
+
+.city:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: red;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+}

@@ -1,0 +1,92 @@
+{
+  "data": {
+    "cities": [
+      { "id": "0046", "name": "Stockholm" },
+      { "id": "0049", "name": "Berlin" },
+      { "id": "001", "name": "New York" }
+    ],
+    "skillers": [
+      {
+        "id": 1,
+        "name": "JAMES HOWLETT",
+        "intro": "I’ve worked with many professional film teams.",
+        "location": "Berlin, Germany",
+        "skill_in": "VFX Engineer, 3D Animation, Editor",
+        "blue_score": 50,
+        "red_score": 667,
+        "pic": "james"
+      },
+      {
+        "id": 2,
+        "name": "ANNE KEELER",
+        "intro": "I’ve worked with many professional film teams.",
+        "location": "Berlin, Germany",
+        "skill_in": "Motion Capture Artist, Photographer",
+        "blue_score": 50,
+        "red_score": 772,
+        "pic": "anne"
+      },
+      {
+        "id": 3,
+        "name": "HANNAH SKEPPSTAD",
+        "intro": "I’ve worked with many professional film teams.",
+        "location": "Berlin, Germany",
+        "skill_in": "3D Animation, VFX Engineer, Sound Editing",
+        "blue_score": 50,
+        "red_score": 471,
+        "pic": "hannah"
+      },
+      {
+        "id": 4,
+        "name": "JHON DOE",
+        "intro": "I’ve worked with many professional film teams.",
+        "location": "Stockholm, Sweden",
+        "skill_in": "VFX Engineer, 3D Animation, Editor",
+        "blue_score": 50,
+        "red_score": 682,
+        "pic": "jhon"
+      },
+      {
+        "id": 5,
+        "name": "JEAN DOE",
+        "intro": "I’ve worked with many professional film teams.",
+        "location": "New York, USA",
+        "skill_in": "Motion Capture Artist, Photographer, Sound Editing",
+        "blue_score": 50,
+        "red_score": 521,
+        "pic": "jean"
+      }
+    ],
+    "related": [
+      { "id": "1", "title": "3D animation" },
+      { "id": "2", "title": "Visual effects" },
+      { "id": "3", "title": "Motion Capture Artist" },
+      { "id": "4", "title": "SFX coordinator" },
+      { "id": "5", "title": "CGI artist" }
+    ],
+    "defination": [
+      {
+        "id": "1",
+        "title": "3D animation",
+        "defination": "#3D animation is very important."
+      },
+      {
+        "id": "2",
+        "title": "VFX Engineer",
+        "defination": "#VFX engineers are beings who create illusions or visual tricks used in the film, television, theatre, video game and similar  industries to simulate the imagined events in a story or virtual world."
+      },
+      { "id": "3", "title": "Editor", "defination": "#Editor is super cool." },
+      {
+        "id": "4",
+        "title": "Motion Capture Artist",
+        "defination": "#Motion Capture Artists are important."
+      },
+      { "id": "5", "title": "Photographer" },
+      {
+        "id": "6",
+        "title": "Sound Editing",
+        "defination": "#MSound Editing is all magic about sound."
+      }
+    ]
+  }
+}

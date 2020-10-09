@@ -1,0 +1,58 @@
+.Header {
+  padding: 0.3rem;
+  padding-left: 1rem;
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.hash {
+  color: red;
+  margin-right: 0.5rem;
+}
+h4 {
+  color: lightgray;
+}
+.contact,
+.loginDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.instagram {
+  width: 40px;
+  height: 40px;
+  margin: 0.5rem;
+  background-image: url(../image/instagram.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.twitter {
+  background-color: darkgray;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  margin: 0.5rem;
+  background-image: url(../image/twitter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60% 50%;
+}
+.login {
+  width: 40px;
+  height: 40px;
+  margin: 0.5rem;
+  background-image: url(../image/login.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60% 50%;
+}
